@@ -6,12 +6,22 @@ I've spent 6+ years in B2B SaaS shipping enterprise features - identity and acce
 
 What's different about how I work: **I build working prototypes with Claude Code and Cloudflare Workers**, so customers and engineers react to a real product before the sprint starts. This profile is where some of those builds live.
 
-### What's here
+### Projects
+
+The products below run in production on [KissMySkills](https://kissmyskills.com). Their source is private; each showcase repo explains the problem, how it works (architecture diagram), and the product decisions behind it.
 
 | Project | What it shows |
 |---|---|
+| [kissmyskills-ai-crm](https://github.com/Kreal-51/kissmyskills-ai-crm) | AI CRM you can drive from chat through MCP as well as a web app |
+| [kissmyskills-ai-receptionist](https://github.com/Kreal-51/kissmyskills-ai-receptionist) | Website chat widget that answers from the business's own facts, books slots and shows the owner what it couldn't answer |
+| [kissmyskills-mcp-connector](https://github.com/Kreal-51/kissmyskills-mcp-connector) | One remote MCP server for Claude, ChatGPT and Cursor: email-code OAuth, order-based access, skills + CRM tools |
+| [invoice-generator-showcase](https://github.com/Kreal-51/invoice-generator-showcase) | No-signup invoice generator that runs fully in the browser, reused inside the app |
+
+### Open source
+
+| Project | What it is |
+|---|---|
 | [kissmyskills-plugin](https://github.com/Kreal-51/kissmyskills-plugin) | Plugin for Claude Code and Cursor: a catalog of AI skills plus an AI CRM, loaded through one MCP connector |
-| [kms-receptionist](https://github.com/Kreal-51/kms-receptionist) | AI receptionist MVP: answers from business facts, books slots, shows the owner what it couldn't answer; built-in AI cost caps |
 | [kissmyskills-agent-readiness](https://github.com/Kreal-51/kissmyskills-agent-readiness) | A tiny edge Worker that makes a Shopify store readable for AI agents (RFC 9727 api-catalog, Link headers) |
 | [leonardpliachko-com](https://github.com/Kreal-51/leonardpliachko-com) | My portfolio site, static on Cloudflare Workers |
 
